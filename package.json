@@ -1,0 +1,21 @@
+{
+    "name": "ragetest",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "node scripts/build.mjs",
+        "format": "prettier ./src --write"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@ragempcommunity/types-client": "^2.1.9",
+        "@ragempcommunity/types-server": "^2.1.9",
+        "@types/node": "^22.13.10",
+        "esbuild": "^0.25.1",
+        "prettier": "^3.5.3",
+        "typescript": "^5.8.2"
+    }
+}
